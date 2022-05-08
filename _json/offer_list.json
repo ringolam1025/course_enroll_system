@@ -1,0 +1,122 @@
+{
+   "page_id":"offer_list",
+   "page_title":"Offer List",
+   "tableName":"tbl_offer",
+   "pkeyCol":"offerID",
+   "pageType":"list",
+   "detailPage":"enrolled_student",
+   "prefix":"O",
+   "editable":"0",
+   "orderBy":"offerID",
+   "specialJS":[
+                  {"functionName":"updateCourseRegistered"}
+               ],
+   "modalSetting":{
+                     "defaultTitle":"Offer",
+                     "newModalTitle":"",
+                     "delModalTitle":"",
+                     "successModalTitle":"",
+                     "failModalTitle":""
+                  },
+   "tableList":[
+                  {
+                     "field": "offerID",
+                     "title": "Offer ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },
+                  {
+                     "field": "deptID",
+                     "title": "Department",
+                     "db_type":"select",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6",
+                     "select_table":"tbl_dept",
+                     "select_table_option":"deptID",
+                     "select_table_display":"deptName",
+                     "localField":"deptID",
+                     "foreignField":"deptID",
+                     "multiple":"1"
+                  },
+                  {
+                     "field": "courseID",
+                     "title": "Course",
+                     "db_type":"select",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-12",
+                     "select_table":"tbl_course",
+                     "select_table_option":"courseID",
+                     "select_table_display":"title",
+                     "localField":"courseID",
+                     "foreignField":"courseID",
+                     "multiple":"1"
+                  },
+                  {
+                     "field": "year",
+                     "title": "Year",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },
+                  {
+                     "field": "classSize",
+                     "title": "Class Size",
+                     "db_type":"number",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"0",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },
+                  {
+                     "field": "available",
+                     "title": "AvailablePlace",
+                     "db_type":"text",
+                     "default":"1",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"0",
+                     "show_in_list":"0",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-12"
+                  },
+                  {
+                     "field": "registered",
+                     "title": "Reg.",
+                     "db_type":"int",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"0",
+                     "show_in_list":"1",
+                     "show_in_newModal":"0",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6",
+                     "formatter":"linkFormatter"
+                  }
+               ]
+
+}

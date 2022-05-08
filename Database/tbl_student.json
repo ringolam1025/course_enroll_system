@@ -1,0 +1,457 @@
+/* 1 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ff9e"),
+    "studentID" : "S001",
+    "studentName" : "Peter Lam",
+    "dob" : ISODate("1989-04-05T22:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2019",
+            "offerID" : "O039",
+            "enrollDate" : ISODate("2019-08-18T09:42:42.000Z")
+        }, 
+        {
+            "year" : "2016",
+            "offerID" : "O003",
+            "enrollDate" : ISODate("2019-08-18T11:10:53.000Z")
+        }, 
+        {
+            "year" : "2016",
+            "offerID" : "O001",
+            "enrollDate" : ISODate("2019-08-18T12:32:48.000Z")
+        }, 
+        {
+            "year" : "2019",
+            "offerID" : "O040",
+            "enrollDate" : ISODate("2019-08-31T08:12:40.000Z")
+        }, 
+        {
+            "year" : "2019",
+            "offerID" : "O032",
+            "enrollDate" : ISODate("2019-08-31T08:13:14.000Z")
+        }
+    ]
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffa1"),
+    "studentID" : "S002",
+    "studentName" : "Chan Tai Man",
+    "dob" : ISODate("1982-05-10T22:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2019",
+            "offerID" : "O037",
+            "enrollDate" : ISODate("2019-08-18T11:10:31.000Z")
+        }, 
+        {
+            "year" : "2016",
+            "offerID" : "O001",
+            "enrollDate" : ISODate("2019-08-18T12:32:43.000Z")
+        }, 
+        {
+            "year" : "2019",
+            "offerID" : "O040",
+            "enrollDate" : ISODate("2019-08-31T08:12:45.000Z")
+        }
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffa4"),
+    "studentID" : "S003",
+    "studentName" : "Leon Kwok",
+    "dob" : ISODate("1995-12-28T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2016",
+            "offerID" : "O001",
+            "enrollDate" : ISODate("2019-08-18T12:32:52.000Z")
+        }, 
+        {
+            "year" : "2020",
+            "offerID" : "O042",
+            "enrollDate" : ISODate("2019-08-31T08:04:06.000Z")
+        }
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffa7"),
+    "studentID" : "S004",
+    "studentName" : "Donald Tsang",
+    "dob" : ISODate("1980-02-12T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2019",
+            "offerID" : "O037",
+            "enrollDate" : ISODate("2019-08-18T11:10:26.000Z")
+        }, 
+        {
+            "year" : "2016",
+            "offerID" : "O003",
+            "enrollDate" : ISODate("2019-08-18T11:10:57.000Z")
+        }
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffaa"),
+    "studentID" : "S005",
+    "studentName" : "Bill Gate",
+    "dob" : ISODate("1999-06-20T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2019",
+            "offerID" : "O038",
+            "enrollDate" : ISODate("2019-08-18T09:42:51.000Z")
+        }, 
+        {
+            "year" : "2018",
+            "offerID" : "O021",
+            "enrollDate" : ISODate("2019-08-18T11:10:39.000Z")
+        }, 
+        {
+            "year" : "2020",
+            "offerID" : "O042",
+            "enrollDate" : ISODate("2019-08-31T08:04:15.000Z")
+        }, 
+        {
+            "year" : "2019",
+            "offerID" : "O032",
+            "enrollDate" : ISODate("2019-08-31T08:13:18.000Z")
+        }
+    ]
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffad"),
+    "studentID" : "S006",
+    "studentName" : "Cara Wong",
+    "dob" : ISODate("1999-01-19T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2019",
+            "offerID" : "O039",
+            "enrollDate" : ISODate("2019-08-18T11:10:14.000Z")
+        }
+    ]
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffb0"),
+    "studentID" : "S007",
+    "studentName" : "Peter Pan",
+    "dob" : ISODate("1992-12-17T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffb3"),
+    "studentID" : "S008",
+    "studentName" : "Joseph Lee",
+    "dob" : ISODate("1987-04-25T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffb6"),
+    "studentID" : "S009",
+    "studentName" : "Alan Pui",
+    "dob" : ISODate("1989-08-10T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffb9"),
+    "studentID" : "S010",
+    "studentName" : "Simon Wo",
+    "dob" : ISODate("1992-08-21T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffbc"),
+    "studentID" : "S011",
+    "studentName" : "Sunny Leung",
+    "dob" : ISODate("1982-09-17T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffbf"),
+    "studentID" : "S012",
+    "studentName" : "Emma Ma",
+    "dob" : ISODate("1987-06-25T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffc2"),
+    "studentID" : "S013",
+    "studentName" : "Emily Wong",
+    "dob" : ISODate("1987-10-15T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffc5"),
+    "studentID" : "S014",
+    "studentName" : "Sophia Leung",
+    "dob" : ISODate("1980-04-16T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffc8"),
+    "studentID" : "S015",
+    "studentName" : "Isabella Li",
+    "dob" : ISODate("1980-08-18T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2016",
+            "offerID" : "O003",
+            "enrollDate" : ISODate("2019-08-18T11:11:01.000Z")
+        }
+    ]
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffcb"),
+    "studentID" : "S016",
+    "studentName" : "John Fan",
+    "dob" : ISODate("1998-03-06T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5d581b7626cbe08362a6ffce"),
+    "studentID" : "S017",
+    "studentName" : "Daisy Yu",
+    "dob" : ISODate("1990-10-29T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffd1"),
+    "studentID" : "S018",
+    "studentName" : "Jane Lo",
+    "dob" : ISODate("1997-01-17T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffd4"),
+    "studentID" : "S019",
+    "studentName" : "Toni Sun",
+    "dob" : ISODate("1987-06-05T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffd7"),
+    "studentID" : "S020",
+    "studentName" : "Jeff Chow",
+    "dob" : ISODate("1999-09-02T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2019",
+            "offerID" : "O039",
+            "enrollDate" : ISODate("2019-08-18T11:10:19.000Z")
+        }
+    ]
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffda"),
+    "studentID" : "S021",
+    "studentName" : "Tom Chau",
+    "dob" : ISODate("1993-06-26T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2018",
+            "offerID" : "O021",
+            "enrollDate" : ISODate("2019-08-18T11:10:43.000Z")
+        }
+    ]
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffdd"),
+    "studentID" : "S022",
+    "studentName" : "Lawrence Fan",
+    "dob" : ISODate("1980-06-18T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffe0"),
+    "studentID" : "S023",
+    "studentName" : "Joseph Leung",
+    "dob" : ISODate("1999-05-21T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffe3"),
+    "studentID" : "S024",
+    "studentName" : "Winnie Hui",
+    "dob" : ISODate("1991-07-05T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffe6"),
+    "studentID" : "S025",
+    "studentName" : "Liam Chan",
+    "dob" : ISODate("1996-10-24T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffe9"),
+    "studentID" : "S026",
+    "studentName" : "Noah Wong",
+    "dob" : ISODate("1980-03-11T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffec"),
+    "studentID" : "S027",
+    "studentName" : "William Lee",
+    "dob" : ISODate("1989-08-21T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6ffef"),
+    "studentID" : "S028",
+    "studentName" : "James Hung",
+    "dob" : ISODate("1990-03-23T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6fff2"),
+    "studentID" : "S029",
+    "studentName" : "Logan Leung",
+    "dob" : ISODate("1989-07-10T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("5d581b7726cbe08362a6fff5"),
+    "studentID" : "S030",
+    "studentName" : "Benjamin Li",
+    "dob" : ISODate("1998-03-27T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("5d581b7826cbe08362a6fff8"),
+    "studentID" : "S031",
+    "studentName" : "Mason Cheung",
+    "dob" : ISODate("1999-01-16T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2016",
+            "offerID" : "O003",
+            "enrollDate" : ISODate("2019-08-18T11:11:16.000Z")
+        }
+    ]
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("5d581b7826cbe08362a6fffb"),
+    "studentID" : "S032",
+    "studentName" : "Elijah Mok",
+    "dob" : ISODate("1990-05-15T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2016",
+            "offerID" : "O003",
+            "enrollDate" : ISODate("2019-08-18T11:11:12.000Z")
+        }
+    ]
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("5d581b7826cbe08362a6fffe"),
+    "studentID" : "S033",
+    "studentName" : "Oliver Chow",
+    "dob" : ISODate("1996-12-29T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2016",
+            "offerID" : "O003",
+            "enrollDate" : ISODate("2019-08-18T11:11:05.000Z")
+        }, 
+        {
+            "year" : "2016",
+            "offerID" : "O003",
+            "enrollDate" : ISODate("2019-08-18T11:11:20.000Z")
+        }
+    ]
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("5d581b7826cbe08362a70001"),
+    "studentID" : "S034",
+    "studentName" : "Jacob Sze",
+    "dob" : ISODate("1984-11-09T00:00:00.000Z"),
+    "enrolled" : []
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("5d581b7826cbe08362a70004"),
+    "studentID" : "S035",
+    "studentName" : "Joseph Lam",
+    "dob" : ISODate("1993-02-16T00:00:00.000Z"),
+    "enrolled" : [ 
+        {
+            "year" : "2016",
+            "offerID" : "O003",
+            "enrollDate" : ISODate("2019-08-18T11:11:09.000Z")
+        }, 
+        {
+            "year" : "2016",
+            "offerID" : "O003",
+            "enrollDate" : ISODate("2019-08-18T11:11:25.000Z")
+        }
+    ]
+}

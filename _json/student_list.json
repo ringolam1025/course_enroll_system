@@ -1,0 +1,66 @@
+{
+   "page_id":"student_list",
+   "page_title":"Student List",
+   "tableName":"tbl_student",
+   "pkeyCol":"studentID",
+   "pageType":"list",
+   "detailPage":"student_enroll",
+   "prefix":"S",
+   "editable":"1",
+   "modalSetting":{
+                     "defaultTitle":"Student",
+                     "newModalTitle":"",
+                     "delModalTitle":"",
+                     "successModalTitle":"",
+                     "failModalTitle":""
+                  },
+   "tableList":[
+                  {
+                     "field": "studentID",
+                     "title": "Student ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-12",
+                     "width":100
+                  },
+                  {
+                     "field": "studentName",
+                     "title": "Name",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6",
+                     "editable": {
+                        "type": "text",
+                        "title": "Student Name"
+                     }
+                  },                
+                  {
+                     "field": "dob",
+                     "title": "Date of Birth",
+                     "db_type":"date",
+                     "required":"1",
+                     "show_in_search":"0",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-12",
+                     "newModal_class":"col-md-6",                     
+                     "formatter":"dateFormatter",
+                     "editable": {
+                        "type": "combodate",
+                        "title": "Date of Birth"
+                     },
+                     "filterControl":"datepicker"
+                  }
+               ]
+
+}

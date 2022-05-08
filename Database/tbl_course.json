@@ -1,0 +1,223 @@
+/* 1 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e269b"),
+    "courseID" : "CS001",
+    "title" : "Introduction to Data Science",
+    "level" : "6"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e269e"),
+    "courseID" : "CS002",
+    "title" : "Application Design and Development",
+    "level" : "5"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26a1"),
+    "courseID" : "CS003",
+    "title" : "Operating Systems",
+    "level" : "5"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26a4"),
+    "courseID" : "CS004",
+    "title" : "Networks and Protocols",
+    "level" : "5"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26a7"),
+    "courseID" : "CS005",
+    "title" : "Project Management",
+    "level" : "5"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26aa"),
+    "courseID" : "CS006",
+    "title" : "Advanced Database Systems",
+    "level" : "6"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26ad"),
+    "courseID" : "CS007",
+    "title" : "Interfacing and Distributed Computing Techniques ",
+    "level" : "6"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26b0"),
+    "courseID" : "CS008",
+    "title" : "Emerging Technologies & Concepts",
+    "level" : "6"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26b3"),
+    "courseID" : "CS009",
+    "title" : "Knowledge Discovery and Data Mining ",
+    "level" : "6"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26b6"),
+    "courseID" : "CS010",
+    "title" : "Final Year Project - Computer Science",
+    "level" : "6"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26b9"),
+    "courseID" : "CS011",
+    "title" : "Enterprise Application Development",
+    "level" : "5"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26bc"),
+    "courseID" : "CS012",
+    "title" : "Strategic Information Systems for Business",
+    "level" : "5"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26bf"),
+    "courseID" : "CS013",
+    "title" : "Project Management",
+    "level" : "5"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26c2"),
+    "courseID" : "CS014",
+    "title" : "Entrepreneurship",
+    "level" : "6"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26c5"),
+    "courseID" : "CS015",
+    "title" : "Information Systems Engineering in Industry",
+    "level" : "6"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26c8"),
+    "courseID" : "CS016",
+    "title" : "Knowledge Discovery and Data Mining",
+    "level" : "6"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26cb"),
+    "courseID" : "CS017",
+    "title" : "Contemporary Issues in IT",
+    "level" : "6"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26ce"),
+    "courseID" : "CS018",
+    "title" : "Knowledge Management in Organization",
+    "level" : "6"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5d5d64bfadcb3f99a93e26d1"),
+    "courseID" : "CS019",
+    "title" : "BIT Route Project",
+    "level" : "6"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5d5d64c0adcb3f99a93e26d4"),
+    "courseID" : "CS020",
+    "title" : "Real World Project",
+    "level" : "5"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5d5d64c0adcb3f99a93e26d7"),
+    "courseID" : "CS021",
+    "title" : "Operational Research",
+    "level" : "5"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5d5d64c0adcb3f99a93e26da"),
+    "courseID" : "CS022",
+    "title" : "Data & Information Retrieval",
+    "level" : "5"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5d5d64c0adcb3f99a93e26dd"),
+    "courseID" : "CS023",
+    "title" : "Project Management",
+    "level" : "5"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5d5d64c0adcb3f99a93e26e0"),
+    "courseID" : "CS024",
+    "title" : "Agile Development",
+    "level" : "6"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5d5d64c0adcb3f99a93e26e3"),
+    "courseID" : "CS025",
+    "title" : "Effective Communications",
+    "level" : "6"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5d5d64c0adcb3f99a93e26e6"),
+    "courseID" : "CS026",
+    "title" : "Information Technology and Global Development",
+    "level" : "6"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5d5d64c0adcb3f99a93e26e9"),
+    "courseID" : "CS027",
+    "title" : "Security and Compliance in the Cloud",
+    "level" : "6"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5d5d64c0adcb3f99a93e26ec"),
+    "courseID" : "CS028",
+    "title" : "Final Year Project - Information Technology",
+    "level" : "6"
+}

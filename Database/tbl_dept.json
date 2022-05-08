@@ -1,0 +1,23 @@
+/* 1 */
+{
+    "_id" : ObjectId("5d4565014661c8f4dffc3023"),
+    "deptID" : "D001",
+    "deptName" : "CS",
+    "location" : "Hong Kong"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5d4565014661c8f4dffc3026"),
+    "deptID" : "D002",
+    "deptName" : "BIT",
+    "location" : "Hong Kong"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5d5d5c92e12bf607d0000e9b"),
+    "deptName" : "IS",
+    "location" : "Hong Kong",
+    "deptID" : "D003"
+}

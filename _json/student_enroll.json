@@ -1,0 +1,137 @@
+{
+   "page_id":"student_enroll",
+   "page_title":"Student enrollment history",
+   "tableName":"tbl_student",
+   "pkeyCol":"courseID",
+   "SubKeyCol":"offerID",
+   "pageType":"detail",
+   "prefix":"S",
+   "modalSetting":{
+                     "defaultTitle":"Student enrollment history",
+                     "newModalTitle":"",
+                     "delModalTitle":"",
+                     "successModalTitle":"",
+                     "failModalTitle":""
+                  },
+   "headerForm":[
+                  {
+                     "field": "studentID",
+                     "title": "Student ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "isvalid":"1",
+                     "detail_class":"col-md-12"
+                  },
+                  {
+                     "field": "studentName",
+                     "title": "Student Name",
+                     "db_type":"text",
+                     "required":"1",
+                     "isvalid":"1",
+                     "detail_class":"col-md-12"
+                  },
+                  {
+                     "field": "dob",
+                     "title": "Date of Birth",
+                     "db_type":"date",
+                     "required":"1",
+                     "isvalid":"1",
+                     "detail_class":"col-md-12"
+                  }
+               ],
+   "tableList":[
+                  {
+                     "field": "offerID",
+                     "title": "Offer ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },
+                  {
+                     "field": "deptID",
+                     "title": "Department",
+                     "db_type":"select",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6",
+                     "select_table":"tbl_dept",
+                     "select_table_option":"deptID",
+                     "select_table_display":"deptName",
+                     "multiple":"1"
+                  },
+                  {
+                     "field": "deptName",
+                     "title": "Department",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"0",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },
+                  {
+                     "field": "courseID",
+                     "title": "Course",
+                     "db_type":"select",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6",
+                     "select_table":"tbl_course",
+                     "select_table_option":"courseID",
+                     "select_table_display":"title",
+                     "multiple":"1"
+                  },
+                  {
+                     "field": "title",
+                     "title": "Course",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",                     
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"0",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },
+                  {
+                     "field": "year",
+                     "title": "Year",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },                
+                  {
+                     "field": "enrollDate",
+                     "title": "Enroll date",
+                     "db_type":"date",
+                     "required":"1",
+                     "show_in_search":"0",
+                     "show_in_list":"1",
+                     "show_in_newModal":"0",
+                     "searchArea_class":"col-md-12",
+                     "newModal_class":"col-md-6",
+                     "formatter":"dateTimeFormatter"
+                  }
+               ]
+
+}

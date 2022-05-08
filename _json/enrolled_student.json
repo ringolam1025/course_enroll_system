@@ -1,0 +1,110 @@
+{
+   "page_id":"enrolled_student",
+   "page_title":"Enrolled {COURSEID}<br>students in {YEAR}",
+   "tableName":"tbl_offer",
+   "pkeyCol":"offerID",
+   "SubKeyCol":"studentID",
+   "pageType":"detail",
+   "detailsPage":{
+                     "list_tbl":"tbl_student",
+                     "unwind":"$enrolled"
+                  },
+   "prefix":"S",
+   "modalSetting":{
+                     "defaultTitle":"Enrolled Student",
+                     "newModalTitle":"",
+                     "delModalTitle":"",
+                     "successModalTitle":"",
+                     "failModalTitle":""
+                  },
+   "headerForm":[
+                  {
+                     "field": "offerID",
+                     "title": "Offer ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "isvalid":"1",
+                     "detail_class":"col-md-6"
+                  },
+                  {
+                     "field": "courseID",
+                     "title": "Course ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "isvalid":"1",
+                     "detail_class":"col-md-6"
+                  },
+                  
+                  {
+                     "field": "title",
+                     "title": "Title",
+                     "db_type":"text",
+                     "required":"1",
+                     "isvalid":"1",
+                     "detail_class":"col-md-12"
+                  },
+                  {
+                     "field": "year",
+                     "title": "Year",
+                     "db_type":"text",
+                     "required":"1",
+                     "isvalid":"1",
+                     "detail_class":"col-md-4"
+                  },
+                  {
+                     "field": "classSize",
+                     "title": "Class Size",
+                     "db_type":"int",
+                     "required":"1",
+                     "isvalid":"1",
+                     "detail_class":"col-md-4"
+                  },
+                  {
+                     "field": "availablePlace",
+                     "title": "Available Place",
+                     "db_type":"text",
+                     "required":"1",
+                     "isvalid":"1",
+                     "detail_class":"col-md-4"
+                  }
+               ],
+   "tableList":[
+                  {
+                     "field": "studentID",
+                     "title": "Student ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },
+                  {
+                     "field": "studentName",
+                     "title": "Student Name",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },                
+                  {
+                     "field": "dob",
+                     "title": "Date of Birth",
+                     "db_type":"text",
+                     "required":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-12",
+                     "newModal_class":"col-md-6",
+                     "formatter":"dateFormatter"
+                  }
+               ]
+
+}

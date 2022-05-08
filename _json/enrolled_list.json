@@ -1,0 +1,92 @@
+{
+   "page_id":"student_list",
+   "page_title":"Enrolled List",
+   "tableName":"tbl_enrolled",
+   "pkeyCol":"enrolledID",
+   "pageType":"list",
+   "prefix":"S",
+   "modalSetting":{
+                     "defaultTitle":"Enrolled",
+                     "newModalTitle":"",
+                     "delModalTitle":"",
+                     "successModalTitle":"",
+                     "failModalTitle":""
+                  },
+   "tableList":[
+                  {
+                     "field": "enrolledID",
+                     "title": "Enrolled ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6"
+                  },
+                  {
+                     "field": "studentID",
+                     "title": "Student ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6",
+                     "editable": {
+                        "type": "text",
+                        "title": "Student ID"
+                     }
+                  },
+                  {
+                     "field": "courseID",
+                     "title": "Course ID",
+                     "db_type":"text",
+                     "required":"1",
+                     "sortable":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6",
+                     "editable": {
+                        "type": "text",
+                        "title": "Course ID"
+                     }
+                  },                
+                  {
+                     "field": "year",
+                     "title": "Year",
+                     "db_type":"text",
+                     "required":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-6",
+                     "newModal_class":"col-md-6",
+                     "editable": {
+                        "type": "date",
+                        "title": "Year"
+                     }
+                  },                
+                  {
+                     "field": "enrollDate",
+                     "title": "Enrollment Date",
+                     "db_type":"text",
+                     "required":"1",
+                     "show_in_search":"1",
+                     "show_in_list":"1",
+                     "show_in_newModal":"1",
+                     "searchArea_class":"col-md-12",
+                     "newModal_class":"col-md-6",
+                     "editable": {
+                        "type": "date",
+                        "title": "Enrollment Date"
+                     }
+                  }
+               ]
+
+}

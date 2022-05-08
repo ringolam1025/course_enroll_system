@@ -1,0 +1,56 @@
+/* 1 */
+{
+    "_id" : ObjectId("5d3e868200b610fe5fc48f48"),
+    "userID" : "U0001",
+    "username" : "ringo",
+    "password" : "123123",
+    "displayName" : "Ringo Lam",
+    "user_info" : {
+        "type" : "admin",
+        "default_page" : "offer_list.php"
+    },
+    "isvalid" : 1
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5d3e86b700b610fe5fc48f58"),
+    "userID" : "U0002",
+    "username" : "joseph",
+    "password" : "123123",
+    "displayName" : "Joseph Leung",
+    "user_info" : {
+        "type" : "admin",
+        "default_page" : "offer_list.php"
+    },
+    "isvalid" : 1
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5d3e86bd00b610fe5fc48f5c"),
+    "userID" : "U0003",
+    "username" : "micheal",
+    "password" : "123123",
+    "displayName" : "Micheal Lam",
+    "user_info" : {
+        "type" : "admin",
+        "default_page" : "offer_list.php"
+    },
+    "isvalid" : 1
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5d4fae0852ea05213a93a6b7"),
+    "userID" : "U0004",
+    "username" : "bill",
+    "password" : "123123",
+    "displayName" : "Bill Gate",
+    "user_info" : {
+        "type" : "student",
+        "ID" : "S005",
+        "default_page" : "student_enroll.php"
+    },
+    "isvalid" : 1
+}

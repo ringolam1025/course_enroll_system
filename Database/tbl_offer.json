@@ -1,0 +1,461 @@
+/* 1 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9bd"),
+    "deptID" : "D001",
+    "courseID" : "CS001",
+    "year" : "2016",
+    "classSize" : 50,
+    "availablePlace" : 47,
+    "offerID" : "O001"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9c0"),
+    "deptID" : "D001",
+    "courseID" : "CS002",
+    "year" : "2016",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O002"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9c3"),
+    "deptID" : "D001",
+    "courseID" : "CS003",
+    "year" : "2016",
+    "classSize" : 50,
+    "availablePlace" : 43,
+    "offerID" : "O003"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9c6"),
+    "deptID" : "D002",
+    "courseID" : "CS004",
+    "year" : "2016",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O004"
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9c9"),
+    "deptID" : "D002",
+    "courseID" : "CS005",
+    "year" : "2016",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O005"
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9cc"),
+    "deptID" : "D002",
+    "courseID" : "CS006",
+    "year" : "2016",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O006"
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9cf"),
+    "deptID" : "D003",
+    "courseID" : "CS007",
+    "year" : "2016",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O007"
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9d2"),
+    "deptID" : "D003",
+    "courseID" : "CS008",
+    "year" : "2016",
+    "classSize" : 60,
+    "availablePlace" : 50,
+    "offerID" : "O008"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9d5"),
+    "deptID" : "D003",
+    "courseID" : "CS009",
+    "year" : "2016",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O009"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9d8"),
+    "deptID" : "D003",
+    "courseID" : "CS010",
+    "year" : "2016",
+    "classSize" : 70,
+    "availablePlace" : 50,
+    "offerID" : "O010"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9db"),
+    "deptID" : "D001",
+    "courseID" : "CS001",
+    "year" : "2017",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O011"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9de"),
+    "deptID" : "D001",
+    "courseID" : "CS002",
+    "year" : "2017",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O012"
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9e1"),
+    "deptID" : "D001",
+    "courseID" : "CS003",
+    "year" : "2017",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O013"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9e4"),
+    "deptID" : "D002",
+    "courseID" : "CS004",
+    "year" : "2017",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O014"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9e7"),
+    "deptID" : "D002",
+    "courseID" : "CS005",
+    "year" : "2017",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O015"
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("5d5571ef72dbffde4499a9ea"),
+    "deptID" : "D002",
+    "courseID" : "CS006",
+    "year" : "2017",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O016"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499a9ed"),
+    "deptID" : "D003",
+    "courseID" : "CS007",
+    "year" : "2017",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O017"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499a9f0"),
+    "deptID" : "D003",
+    "courseID" : "CS008",
+    "year" : "2017",
+    "classSize" : 60,
+    "availablePlace" : 50,
+    "offerID" : "O018"
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499a9f3"),
+    "deptID" : "D003",
+    "courseID" : "CS009",
+    "year" : "2017",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O019"
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499a9f6"),
+    "deptID" : "D003",
+    "courseID" : "CS010",
+    "year" : "2017",
+    "classSize" : 70,
+    "availablePlace" : 50,
+    "offerID" : "O020"
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499a9f9"),
+    "deptID" : "D001",
+    "courseID" : "CS001",
+    "year" : "2018",
+    "classSize" : 50,
+    "availablePlace" : 48,
+    "offerID" : "O021"
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499a9fc"),
+    "deptID" : "D001",
+    "courseID" : "CS002",
+    "year" : "2018",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O022"
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499a9ff"),
+    "deptID" : "D001",
+    "courseID" : "CS003",
+    "year" : "2018",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O023"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499aa02"),
+    "deptID" : "D002",
+    "courseID" : "CS004",
+    "year" : "2018",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O024"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499aa05"),
+    "deptID" : "D002",
+    "courseID" : "CS005",
+    "year" : "2018",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O025"
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499aa08"),
+    "deptID" : "D002",
+    "courseID" : "CS006",
+    "year" : "2018",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O026"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("5d5571f072dbffde4499aa0b"),
+    "deptID" : "D003",
+    "courseID" : "CS007",
+    "year" : "2018",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O027"
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa0e"),
+    "deptID" : "D003",
+    "courseID" : "CS008",
+    "year" : "2018",
+    "classSize" : 60,
+    "availablePlace" : 50,
+    "offerID" : "O028"
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa11"),
+    "deptID" : "D003",
+    "courseID" : "CS009",
+    "year" : "2018",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O029"
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa14"),
+    "deptID" : "D003",
+    "courseID" : "CS010",
+    "year" : "2018",
+    "classSize" : 70,
+    "availablePlace" : 50,
+    "offerID" : "O030"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa17"),
+    "deptID" : "D001",
+    "courseID" : "CS001",
+    "year" : "2019",
+    "classSize" : 50,
+    "availablePlace" : 45,
+    "offerID" : "O031"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa1a"),
+    "deptID" : "D001",
+    "courseID" : "CS002",
+    "year" : "2019",
+    "classSize" : 50,
+    "availablePlace" : 48,
+    "offerID" : "O032"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa1d"),
+    "deptID" : "D001",
+    "courseID" : "CS003",
+    "year" : "2019",
+    "classSize" : 50,
+    "availablePlace" : 49,
+    "offerID" : "O033"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa20"),
+    "deptID" : "D002",
+    "courseID" : "CS004",
+    "year" : "2019",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O034"
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa23"),
+    "deptID" : "D002",
+    "courseID" : "CS005",
+    "year" : "2019",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O035"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa26"),
+    "deptID" : "D002",
+    "courseID" : "CS006",
+    "year" : "2019",
+    "classSize" : 50,
+    "availablePlace" : 50,
+    "offerID" : "O036"
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa29"),
+    "deptID" : "D003",
+    "courseID" : "CS007",
+    "year" : "2019",
+    "classSize" : 50,
+    "availablePlace" : 48,
+    "offerID" : "O037"
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa2c"),
+    "deptID" : "D003",
+    "courseID" : "CS008",
+    "year" : "2019",
+    "classSize" : 60,
+    "availablePlace" : 59,
+    "offerID" : "O038"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa2f"),
+    "deptID" : "D003",
+    "courseID" : "CS009",
+    "year" : "2019",
+    "classSize" : 50,
+    "availablePlace" : 47,
+    "offerID" : "O039"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("5d5571f172dbffde4499aa32"),
+    "deptID" : "D003",
+    "courseID" : "CS010",
+    "year" : "2019",
+    "classSize" : 70,
+    "availablePlace" : 68,
+    "offerID" : "O040"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("5d6a2925e12bf60eb00066c9"),
+    "deptID" : "D001",
+    "courseID" : "CS006",
+    "year" : "2019",
+    "classSize" : 2,
+    "offerID" : "O041",
+    "availablePlace" : 1
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("5d6a2938e12bf60eb00066ca"),
+    "deptID" : "D001",
+    "courseID" : "CS006",
+    "year" : "2020",
+    "classSize" : 2,
+    "offerID" : "O042",
+    "availablePlace" : 0
+}

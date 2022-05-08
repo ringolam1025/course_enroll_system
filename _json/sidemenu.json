@@ -1,0 +1,37 @@
+{
+   "page_id":"_sidemenu",
+   "menuItems":[
+                  {
+                     "display": "Offer",
+                     "url": "offer_list",
+                     "icon":"mdi mdi-comment-multiple-outline",
+                     "permission":"admin"
+                  },
+                  {
+                     "display": "Student",
+                     "url": "student_list",
+                     "icon":"mdi mdi-human-handsup",
+                     "permission":"admin"
+                  },
+                  {
+                     "display": "Course",
+                     "url": "course_list",
+                     "icon":"mdi mdi-note-multiple",
+                     "permission":"admin"
+                  },
+                  {
+                     "display": "Department",
+                     "url": "dept_list",
+                     "icon":"mdi mdi-apps",
+                     "permission":"admin"
+                  },
+                  {
+                     "display": "My Enrollment",
+                     "url": "student_enroll",
+                     "icon":"mdi mdi-view-dashboard",
+                     "permission":"student"
+                  }
+
+               ]
+
+}
